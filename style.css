@@ -1,0 +1,28 @@
+body{
+    width: 600px;
+    margin: 75px auto;
+    text-align: center;
+    font-size: 27px;
+    background-color: beige;
+}
+
+.img-center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#myClock{
+    background-color: orange;
+    width: 300px;
+    height: 50px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 7px 23px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 7px 23px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 7px 23px 0px rgba(0,0,0,0.75);
+
+}
