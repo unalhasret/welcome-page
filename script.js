@@ -1,5 +1,5 @@
 //name
-let name = prompt("Lütfen isminizi yazınız", "");
+let name = prompt("Please enter your name", "");
 
 let info = document.querySelector("#name");
 info.innerHTML = name;
@@ -11,12 +11,16 @@ function showTime(){
     let time = today.toLocaleTimeString();
 
     //day
-    const days = ["Pazar", "Pazartesi", "Salı", "Çarşamba", "Perşembe", "Cuma", "Cumartesi"];
+    const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
     let currentDay= today.getDay();
     let day = days[currentDay];
 
     let currentTime = document.querySelector("#myClock");
     currentTime.innerHTML = `${time} ${day}`;
 }
+
+
+
+
 
 
