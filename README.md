@@ -1,7 +1,5 @@
-# Patika.dev Frontend Web Development Eğitimi Kapsamındaki JS Ödev 1
+# Patika.dev Frontend Web Development Pathway JS Homework 1
 
-Bu çalışmada
-- Kullanıcıdan bilgi alma
-- Saat ve günü ekrana yazdırma
-- Saatin saniye göstergesinin sürekli güncellenmesi
-yapıldı.
+- Getting information from the user
+- Printing the time and day on the screen
+- Continuous updating of the second display of the watch
